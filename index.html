@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de José Roberto — Desenvolvedor Web e FiveM.">
+  <title>José Roberto — Desenvolvedor Web & FiveM</title>
+  <!-- Open Graph -->
+  <meta property="og:title" content="José Roberto — Desenvolvedor Web & FiveM">
+  <meta property="og:description" content="Desenvolvedor focado em interfaces web, sistemas e soluções para FiveM. Código limpo, interfaces modernas e projetos pensados para funcionar de verdade.">
+  <meta property="og:image" content="assets/img/Perfil.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="José Roberto — Desenvolvedor Web & FiveM">
+  <meta name="twitter:description" content="Desenvolvedor focado em interfaces web, sistemas e soluções para FiveM.">
+  <meta name="twitter:image" content="assets/img/Perfil.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <a class="logo" href="#inicio">
+      <img class="logo-avatar" src="assets/img/Perfil.png" alt="Foto de José Roberto">
+      <strong>José Roberto</strong>
+    </a>
+    <button class="menu" aria-label="Abrir menu">☰</button>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#stack">Stack</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <h1>Transformo ideias em <em>experiências digitais.</em></h1>
+        <p class="lead">Gosto de construir coisas que funcionam bem e têm uma boa cara. Trabalho com web, sistemas e FiveM — do zero até estar no ar.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projetos">Ver meus projetos <span>↗</span></a>
+          <a class="btn ghost" href="#contato">Entrar em contato</a>
+        </div>
+        <div class="mini-stats">
+          <div><b>Web</b><span>Sites & Sistemas</span></div>
+          <div><b>FiveM</b><span>Scripts & UI</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb"></div>
+        <div class="code-card">
+          <div class="dots"><i></i><i></i><i></i><span>portfolio.js</span></div>
+          <pre><code><span class="purple">const</span> developer = {
+  <span class="blue">name</span>: <span class="green">"José Roberto"</span>,
+  <span class="blue">focus</span>: [
+    <span class="green">"Web"</span>,
+    <span class="green">"FiveM"</span>
+  ],
+  <span class="blue">mindset</span>: <span class="green">"build & improve"</span>
+};</code></pre>
+          <div class="terminal-line"><span>●</span> projeto iniciado...</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section about">
+      <div class="section-head">
+        <p class="eyebrow reveal reveal--left">01 — SOBRE</p>
+        <h2 class="reveal" data-delay="1">Quem sou e <em>o que faço.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo reveal reveal--scale" data-delay="1">
+          <div class="about-photo-wrap">
+            <img src="assets/img/Perfil.png" alt="José Roberto">
+          </div>
+        </div>
+        <div class="about-text reveal reveal--left" data-delay="2">
+          <p>Comecei a programar por conta própria e fui aprendendo no caminho — construindo, errando e melhorando. Hoje faço sites, sistemas e scripts para FiveM.</p>
+          <p>Trabalho com HTML, CSS, JavaScript e Node.js. Já fiz desde landing pages simples até sistemas com dashboard, controle financeiro e banco de dados.</p>
+          <p>Cada projeto que entrego funciona, tem uma boa aparência e fica fácil de evoluir depois.</p>
+        </div>
+        <div class="principles">
+          <article class="reveal reveal--scale" data-delay="2"><span>01</span><h3>Interface</h3><p>Nada de tela feia ou confusa. Se não ficou bom, não sai.</p></article>
+          <article class="reveal reveal--scale" data-delay="3"><span>02</span><h3>Funcionalidade</h3><p>Bonito sem funcionar não serve. O objetivo da tela tem que estar claro.</p></article>
+          <article class="reveal reveal--scale" data-delay="4"><span>03</span><h3>Evolução</h3><p>Construo pensando no que pode vir depois, não só no que foi pedido.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section projects">
+      <div class="section-head row">
+        <div><p class="eyebrow reveal reveal--left">02 — PROJETOS</p><h2 class="reveal" data-delay="1">O que eu <em>já fiz.</em></h2></div>
+        <div class="filters reveal" data-delay="2"><button class="active" data-filter="all">Todos</button><button data-filter="web">Web</button><button data-filter="fivem">FiveM</button></div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project featured reveal reveal--scale" data-category="web" data-delay="1">
+          <div class="project-image dashboard"><span>GESTÃO</span><div class="fake-chart"></div><div class="fake-cards"><i></i><i></i><i></i></div></div>
+          <div class="project-body"><div class="tag">SISTEMA</div><h3>Sistema de Gestão</h3><p>Sistema completo com dashboard, controle de membros, financeiro, estoque e vendas. Ainda em evolução.</p><div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Supabase</span></div><a class="project-link" href="#" onclick="return false;">Projeto privado ↗</a></div>
+        </article>
+
+        <article class="project reveal reveal--scale" data-category="fivem" data-delay="2">
+          <div class="project-image police"><span>FIVEM</span><strong>ARSENAL<br>POLICIAL</strong></div>
+          <div class="project-body"><div class="tag">FIVEM / VRP</div><h3>Arsenal Policial</h3><p>Interface de arsenal pra polícia no FiveM — categorias, patentes e permissões por cargo.</p><div class="tech"><span>HTML</span><span>CSS</span><span>JS</span><span>vRP</span></div><a class="project-link" href="#" onclick="return false;">Ver projeto ↗</a></div>
+        </article>
+
+        <article class="project reveal reveal--scale" data-category="fivem" data-delay="3">
+          <div class="project-image car"><span>FIVEM</span><strong>VEHICLE<br>EXTRAS</strong></div>
+          <div class="project-body"><div class="tag">SCRIPT / FIVEM</div><h3>Extras para Veículos</h3><p>Script pra gerenciar extras de veículos em servidores FiveM com vRP. Simples de usar, fácil de configurar.</p><div class="tech"><span>Lua</span><span>HTML</span><span>CSS</span><span>vRP</span></div><a class="project-link" href="#" onclick="return false;">Ver projeto ↗</a></div>
+        </article>
+
+        <article class="project landing-showcase reveal reveal--scale" data-category="web" data-delay="4">
+          <div class="landing-preview">
+            <div class="lp-browser">
+              <div class="lp-bar">
+                <div class="lp-dots"><i></i><i></i><i></i></div>
+                <div class="lp-url" id="lp-url-display">nathaliapessoa-psi.vercel.app</div>
+                <a class="lp-open" id="lp-open-link" href="https://nathaliapessoa-psi.vercel.app/" target="_blank" rel="noopener" title="Abrir site">↗</a>
+              </div>
+              <div class="lp-frame-wrap">
+                <iframe id="lp-frame" src="https://nathaliapessoa-psi.vercel.app/" title="Preview do site" loading="lazy" sandbox="allow-scripts allow-same-origin"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="tag">WEB DESIGN</div>
+            <h3>Sites & Landing Pages</h3>
+            <p>Sites que já fiz pra clientes reais. Você pode navegar pelo site direto aqui.</p>
+            <div class="lp-thumbs" id="lp-thumbs"></div>
+            <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="#contato">Solicitar projeto ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack">
+      <div class="section-head"><p class="eyebrow reveal reveal--left">03 — STACK</p><h2 class="reveal" data-delay="1">O que eu <em>uso no dia a dia.</em></h2></div>
+      <div class="stack-grid">
+        <div class="stack-card reveal reveal--scale" data-delay="1"><span>HTML5</span><i class="devicon-html5-plain"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="2"><span>CSS3</span><i class="devicon-css3-plain"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="3"><span>JavaScript</span><i class="devicon-javascript-plain"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="4"><span>Node.js</span><i class="devicon-nodejs-plain"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="5"><span>Supabase</span><i class="devicon-supabase-plain"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="6"><span>Lua</span><i class="devicon-lua-plain"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="7"><span>Git / GitHub</span><i class="devicon-github-original"></i></div>
+        <div class="stack-card reveal reveal--scale" data-delay="8"><span>Vercel</span><i class="devicon-vercel-plain"></i></div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="section-head"><p class="eyebrow reveal reveal--left">04 — PROCESSO</p><h2 class="reveal" data-delay="1">Como eu <em>trabalho.</em></h2></div>
+      <div class="steps">
+        <article class="reveal" data-delay="1"><span>01</span><h3>Entender</h3><p>Antes de qualquer código, preciso saber o que você quer e pra quem é.</p></article>
+        <article class="reveal" data-delay="2"><span>02</span><h3>Planejar</h3><p>Defino o que vai ter em cada tela e qual tecnologia faz mais sentido.</p></article>
+        <article class="reveal" data-delay="3"><span>03</span><h3>Construir</h3><p>Aqui é onde a coisa acontece de verdade. Interface, lógica, testes.</p></article>
+        <article class="reveal" data-delay="4"><span>04</span><h3>Entregar</h3><p>Coloco no ar e ajusto o que precisar. O projeto não para por aí.</p></article>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="contact-card reveal reveal--scale">
+        <p class="eyebrow">05 — CONTATO</p>
+        <h2>Tem um projeto?<br><em>Me fala.</em></h2>
+        <p>Pode ser um site, um sistema, um script pra FiveM ou só uma ideia ainda. Me manda mensagem e a gente vê o que dá pra fazer.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://github.com/joserobertodevv-lab" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn ghost" href="mailto:seuemail@exemplo.com">E-mail ↗</a>
+          <a class="btn ghost" href="assets/docs/curriculo.pdf" download="Curriculo-Jose-Roberto.pdf">Currículo ↓</a>
+        </div>
+        <small>Substitua os links de contato pelos seus dados antes de publicar.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 José Roberto</span><span>Desenvolvedor Web & FiveM</span></footer>
+  <button class="back-top" id="back-top" aria-label="Voltar ao topo">↑</button>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
